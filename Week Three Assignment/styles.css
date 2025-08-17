@@ -1,0 +1,96 @@
+/* General Reset and Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f4f8;
+  padding: 20px;
+}
+
+/* Header Styling */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #222;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Section Styling */
+.content {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.content h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.content p {
+  color: #555;
+}
+
+/* Card Styling to Demonstrate Box Model */
+.card {
+  background-color: #e6f7ff;
+  border: 2px solid #3399ff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 15px;
+}
+
+/* Button Styling */
+button {
+  padding: 10px 20px;
+  border: 2px solid #007acc;
+  background-color: #007acc;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  border-top: 2px solid #222;
+}
